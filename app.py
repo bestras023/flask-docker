@@ -16,6 +16,7 @@ def get_widgets() :
     password="p@ssw0rd1",
     database="inventory"
   )
+  print('test')
   cursor = mydb.cursor()
 
 
