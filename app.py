@@ -42,6 +42,8 @@ def db_init():
   )
   cursor = mydb.cursor()
 
+  print('remove git tag v1.0.4')
+
   cursor.execute("DROP DATABASE IF EXISTS inventory")
   cursor.execute("CREATE DATABASE inventory")
   cursor.close()
