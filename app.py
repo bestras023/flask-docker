@@ -28,7 +28,7 @@ def get_widgets() :
   json_data=[]
   for result in results:
     json_data.append(dict(zip(row_headers,result)))
-
+  print('test specific verion')
   cursor.close()
 
   return json.dumps(json_data)
